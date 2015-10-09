@@ -1,0 +1,19 @@
+{
+  "name": "apipub",
+  "version": "0.0.0",
+  "description": "Copy your server APIs to client without pain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip Polkovnikov <polkovnikov.ph@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "rpc",
+    "websocket"
+  ],
+  "dependencies": {
+    "express-ws": "^0.2.6",
+    "simple-websocket": "^2.5.1"
+  }
+}
