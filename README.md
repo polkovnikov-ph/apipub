@@ -2,6 +2,12 @@
 
 Publish API from server to client and vice versa.
 
+## [Install from npm](https://www.npmjs.com/package/apipub)
+
+```
+npm install --save apipub
+```
+
 ## Server example
 
 ```javascript
