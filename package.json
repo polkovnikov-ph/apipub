@@ -1,10 +1,11 @@
 {
   "name": "apipub",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Copy your server APIs to client without pain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Philip Polkovnikov <polkovnikov.ph@gmail.com>",
   "license": "MIT",
@@ -15,5 +16,14 @@
   "dependencies": {
     "express-ws": "^0.2.6",
     "simple-websocket": "^2.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polkovnikov-ph/apipub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polkovnikov-ph/apipub/issues"
+  },
+  "homepage": "https://github.com/polkovnikov-ph/apipub#readme"
 }
