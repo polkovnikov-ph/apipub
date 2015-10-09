@@ -33,7 +33,7 @@ apipub(app, '/', function (client) {
     });
     
     // mount some object
-    client.mound('test', {a: 1, b: 2});
+    client.mount('test', {a: 1, b: 2});
     
     // when client connects, get its api
     client.on('join', function (api) {
