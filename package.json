@@ -1,6 +1,6 @@
 {
   "name": "apipub",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Copy your server APIs to client without pain",
   "main": "index.js",
   "scripts": {
